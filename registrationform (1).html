@@ -1,0 +1,96 @@
+<html>
+<head>
+<title>Register form</title>
+</head>
+<html>
+
+ <head>
+    <title>Navigation Menu Example</title>
+   <style>
+    body{
+                background:url(4.jpg);
+                background-repeat:no-repeat ;
+                background-size: cover;
+                text-align:center;
+
+        }
+       /* CSS for styling the navigation menu */
+       nav {
+           background-color: #333333;
+           color: white;
+           padding: 10px;
+       }
+       nav ul {
+           list-style-type: none;
+           margin: 0;
+           padding: 0;
+       }
+       nav ul li {
+           display: inline;
+           margin-right: 20px;
+       }
+       nav ul li a {
+           color: white;
+           text-decoration: none;
+       }
+       nav ul li a:hover {
+           text-decoration: underline;
+       }
+   </style>
+</head>
+<body>
+<form action="paceloginpage.html">
+<body text="brown"></body>
+<body>
+   <div class="container">
+<h3>REGISTRATION FORM</h3>
+FirstName:<input type="text" name="fname"> LastName:<input type:"text" name="lname" autofocus><br>
+ rollno:<br>
+<input type="text" rno="rnum"><br>
+ gender:<br>
+<input type="radio" name="gender" value="F">female<br>
+<input type="radio" name="gender" value="M">male<br>
+<input type="radio" name="gender" value="O">other<br>
+ Age:<br>
+<input type="text" age="anum" id="per1" pattern="[0-9] {10}" title="the ten digitd number"><br>
+ phone number:<br>
+<input type="tel" name="personal"><br>
+college name:<br>
+<input type="text" clg="clgname"><br>
+date of birth:<br>
+<input type="date" name="birthday"><br>
+Date of joining:<br>
+<input type="date" name="joining"><br>
+email:<br>
+<input list="email",name="mymails">
+<datalist id="email">
+        <option value="@yahoo.com"></option>
+        <option value="@gamil.com"></option>
+        <option value="@hotmail.com"></option>
+        <option value="@gmail.com"></option>
+        </datalist><br>
+
+branch:<br>
+<input type="radio" branch="AIDS" value="A">AIDS<br>
+<input type="radio" branch="AIML" value="M">AIML<br>
+<input type="radio" branch="IT" value="I">IT<br>
+<input type="radio" branch="IOT" value="O">IOT<br>
+<input type="radio" branch="CSE" value="C">CSE<br>
+<input type="radio" branch="CSIT" value="S">CSIT<br>
+<input type="radio" branch="ECE" value="E">ECE<br>
+Academic year:<br>
+<input type="radio" Year="1" value="y1">1st year<br>
+<input type="radio" Year="2" value="y2">2nd year<br>
+<input type="radio" Year="3" value="y3">3rd year<br>
+<input type="radio" Year="4" value="y1">4th year<br>
+certificates done:<br>
+<input type="checkbox" certificate="spokentutorial">spokentutorial<br> 
+<input type="checkbox" certificate="codetantra">codetantra<br> 
+<input type="checkbox" certificate="infosys springboard">infosys springboard<br>
+<input type="checkbox" certificate="eduskills">edusskills<br> 
+
+        <input type="submit">
+        </div>
+</form>
+</body>
+</html>
